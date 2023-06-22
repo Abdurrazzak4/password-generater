@@ -6,7 +6,7 @@ const generatePassword = document.getElementById("generater")
 let getLength = document.getElementById("getLength")
 
 generatePassword.addEventListener("click" ,()=> {
-    alert("clicked")
+
 let key1 = ""
 let key2 = ""
 if(getLength.value < 17){
